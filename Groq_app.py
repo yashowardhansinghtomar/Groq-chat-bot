@@ -32,7 +32,7 @@ iface = gr.Interface(
         gr.components.Textbox(lines=5, placeholder="User Message")
     ],
     outputs=gr.components.Textbox(),
-    title="Python Trainer Chatbot",
+    title="Anything Trainer Chatbot",
     description="Enter system and user messages to get a response.",
     theme="light"  # Changed to a default theme
 )
